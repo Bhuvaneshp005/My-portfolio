@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #000622 0%, #050f44 40%, #000622 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.header-wrapper {
+  margin: 0px 150px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wrapper h4 {
+  font-size: 36px;
+  color: #ff7700;
+  /* width: 70%; */
+}
+
+.header-wrapper nav {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.header-wrapper nav a {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  transition: color 0.5s ease, border-bottom 0.5s ease;
+}
+
+nav a:hover {
+  color: #ff7700;
+  border-bottom: 2px solid #ff7700;
+  text-decoration-color: #ff7700;
+  text-underline-offset: 3rem;
+  transition-duration: 0.7s;
+}
+
+.name:hover {
+  color: #ff7700;
+  transition-duration: 0.5s;
+}
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 130px;
+  height: 40vh;
+}
+
+.pic-container {
+  display: flex;
+  width: 350px;
+  height: 350px;
+  margin-top: auto 0px;
+}
+
+.pic-container img {
+  border-radius: 250px;
+  background-color: antiquewhite;
+}
+
+.text {
+  align-self: center;
+  text-align: center;
+}
+
+.text p {
+  font-weight: 600;
+}
+
+.text__p1 {
+  color: #f1dec5;
+  text-align: center;
+}
+
+.text__p2 {
+  font-size: 1.50rem;
+  color: #ff9100;
+  margin-bottom: 1rem;
+
+}
+
+.title {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 60%;
+  padding: 10px;
+  box-shadow: 0 0 50px 5px #0000ff5b;
+
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 1rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: #353535 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+  background: #ff0000;
+  transition-duration: 0.8s;
+  color: white;
+}
+
+/*---- profile section ends here  ----*/
+
+
+/*---- about section starts here  ----*/
+
+#about {
+  position: relative;
+  margin-top: 20%;
+
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.details-container {
+  height: 180px;
+  width: 580px;
+  padding: 25px;
+  background-color: antiquewhite;
+  border-radius: 25px;
+  text-align: center;
+  align-items: center;
+}
+
+.text-container p {
+  color: #ffffff;
+  display: flex;
+  width: 970px;
+}
+
+/*---------  about section is over----------*/
+
+
+/*---------  Skill section is started here ----------*/
+#skills {
+  position: relative;
+
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 30px
+}
+
+.details {
+  background-color: antiquewhite;
+  border-radius: 25px;
+  padding-bottom: 40px;
+  height: 45%;
+  width: 40%;
+}
+
+.details h1 {
+  color: hwb(0 2% 44%);
+  font-size: 35px;
+  display: flex;
+  padding-top: 25px;
+  justify-content: center;
+}
+
+article {
+  margin-left: 35.5%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title:hover {
+  color: #ff0000;
+  transition-duration: .6s;
+  cursor: pointer;
+}
+
+/*---------  skill section is over----------*/
+
+
+/*---------  project section starts----------*/
+#projects {
+  position: relative;
+
+}
+
+.calculator {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator img {
+  width: 400px;
+  height: 450px;
+  border-radius: 50px;
+}
+
+.btn-container-2 {
+  margin: 0px 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-1,
+.btn-2 {
+  height: 50px;
+  width: 160px;
+  border-radius: 17px;
+  border-color: transparent;
+  font-size: 28px;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: #f1dec5;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  background-color: #ff0000;
+  transition-duration: .5s;
+  color: #ffffff;
+}
+
+/*---------  project section is over----------*/
+
+/*---------  contact section starts----------*/
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info-top-container {
+  display: flex;
+  justify-content: center;
+  border: rgb(53, 53, 53) 1px solid;
+  border-color: #00fafa;
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-top-container:hover {
+  box-shadow: 0 0 1 0px #00fafa;
+  transition: 0.5s;
+}
+
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}

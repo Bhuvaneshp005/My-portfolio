@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/mediaqueries.css">
+  <script src="/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-wrapper">
+        <h4>Portfolio </h4>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="profile">
+    <div class="pic-container">
+      <img src="/assets/img 1.jpg" alt="">
+    </div>
+    <div class="text">
+      <p class="text__p1">Hello I'm</p>
+      <h1 class="title">Bhuvanesh</h1>
+      <p class="text__p2">Frontend Developer</p>
+      <div class="btn-container">
+
+        <input type="submit" value="Resume" onclick="window.open('/assets/Resume.pdf')" title="" target="_blank"
+          class="btn btn-color-2">
+        <input type="submit" value="Contact Info" onclick="location.href='./#contact'" title="" target="_blank"
+          class="btn btn-color-2">
+
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/bhuvanesh-p05'" />
+        <img src="./assets/github.png" alt="Github" class="icon"
+          onclick="location.href='https://github.com/Bhuvaneshp005'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/education.png" alt="Education" class="icon" />
+          <h3>Education</h3>
+          <p>B.Sc Information Technology<br>SKASC</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          I'm a very organized student who is currently pursuing an undergraduate degree in practice of Information
+          Technology. As a versatile person, I can quickly pick up new skills and put them to use. With an inquiring
+          mind, I can enhance my skills and be of great use to this society. My skills as a frontend developer have
+          begun to expand, and I'm constantly learning new things. In the coming times, I aspire to continually learn
+          and grow, shaping myself into an adept frontend developer.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <p class="text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <div class="details">
+        <h1>Languages</h1>
+        <article>
+          <h2>Html</h2>
+          <p>&#9733; &#9733; &#9733; &#9734; &#9734;</p>
+        </article>
+        <article>
+          <h2>Css</h2>
+          <p>&#9733; &#9733; &#9733; &#9734; &#9734;</p>
+        </article>
+        <article>
+          <h2>Java script</h2>
+          <p>learning</p>
+        </article>
+      </div>
+      <div class="details">
+        <h1>Tools</h1>
+        <article>
+          <h2>Photoshop</h2>
+          <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+        </article>
+        <article>
+          <h2>Figma</h2>
+          <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+        </article>
+        <article>
+          <h2>VS code</h2>
+          <p>&#9733; &#9733; &#9733; &#9734; &#9734;</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="text__p1">Browse My</p>
+    <h1 class="title">Projects</h1>
+    <div class="calculator">
+      <img src="./assets/Calculator.jpg" alt="calculator">
+    </div>
+    <div class="btn-container-2">
+      <button class="btn-1" onclick="window.open('https://bhuvanesh005-calculator.netlify.app/')">view
+      </button>
+      <button class="btn-2" onclick="window.open('https://github.com/Bhuvaneshp005/Codsoft/tree/main/calculator')">Github
+      </button>
+
+      <!-- <input type="submit" value="View" title="" class="btn-1">
+      <input type="submit" value="Github" title="" class="btn-2"> -->
+    </div>
+
+
+  </section>
+
+
+  <section id="contact">
+    <p class="text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-top-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:bhuvaneshp6305@gmail.com" target="_blank">Bhuvaneshp6305@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/bhuvanesh-p05/"  target="_blank" >LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+<footer>
+  <p>© Bhuvanesh Portfolio</p>
+</footer>
+
+</html>

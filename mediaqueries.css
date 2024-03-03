@@ -1,0 +1,560 @@
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(180deg, #000622 0%, #050f44 40%, #000622 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+
+/* 1200 */
+
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 13px;
+    /* Reduce font size for smaller screens */
+  }
+
+  .header-wrapper {
+    width: 100%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* text-align: center; */
+  }
+
+  .header-wrapper nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-wrapper nav a {
+    padding-top: 20px;
+  }
+
+  /* header over */
+
+
+  .about-details-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .about-containers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .text-container p {
+    width: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+  }
+
+  /* about is over */
+
+
+  .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .details {
+    height: 70%;
+    width: 70%;
+  }
+
+  /* skill is over */
+  #project {
+    margin-top: 90%;
+    padding-top: 30%;
+  }
+
+  .calculator img {
+
+    width: 300px;
+    height: 350px;
+  }
+
+  .btn-container-2 {
+    margin-top: 30px;
+  }
+}
+
+/* -----------1200 is over--------------------------- */
+
+
+
+
+
+
+/* 988  starrts  here */
+
+
+
+@media only screen and (max-width: 998px) {
+  body {
+    width: 100%;
+  }
+
+  section {
+    margin: 50px;
+    padding-top: 2vh;
+    height: 100%;
+  }
+
+  .header-wrapper nav a {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+
+  /* ----head over---- */
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic-container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0px 35%;
+    justify-content: center;
+
+  }
+
+  .pic-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    display: flex;
+
+
+  }
+
+  /*------------- profile is over-------------- */
+
+  .about-details-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-containers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .text-container p {
+    width: auto;
+    margin: 0px 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+  }
+
+  /*-------- about is over--------- */
+
+
+  .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    height: 70%;
+    width: 70%;
+  }
+
+  /*------ skill is over --------*/
+
+  #projects {
+    margin: 250px 0px;
+  }
+
+  .calculator img {
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+  }
+
+  .btn-container-2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .btn-1,
+  .btn-2 {
+    height: 50px;
+    width: 160px;
+    margin: 5px;
+    border-radius: 17px;
+    border-color: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #f1dec5;
+  }
+
+  /*--------- project is over--------- */
+  #contact .title h1 {
+    font-size: 23px;
+
+  }
+
+  #contact {
+    margin-bottom: 0px;
+    margin-top: 150px;
+  }
+
+  .contact-info-top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 160px;
+
+  }
+}
+
+/*------- contact is over----- */
+
+/* ------988 ends here------- */
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  section {
+    /* width: 100%; */
+    margin: 10px 50px;
+
+
+  }
+
+  .header-wrapper {
+    margin-top: 10px;
+  }
+
+  .header-wrapper nav a {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+
+  /* ----head over---- */
+
+  #profile {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic-container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0px 25%;
+    justify-content: center;
+
+  }
+
+  .pic-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    display: flex;
+
+
+  }
+
+  /*------------- profile is over-------------- */
+  #about {
+    margin-top: 340px;
+  }
+
+  .about-details-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-containers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .text-container p {
+    width: auto;
+    margin: 0px 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+  }
+
+  /*-------- about is over--------- */
+  #skills {
+    margin-top: 90px;
+  }
+
+  .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    height: 70%;
+    width: 70%;
+  }
+
+  /*------ skill is over --------*/
+
+  #projects {
+    margin: 250px 0px;
+  }
+
+  .calculator img {
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+  }
+
+  .btn-container-2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .btn-1,
+  .btn-2 {
+    height: 50px;
+    width: 160px;
+    margin: 5px;
+    border-radius: 17px;
+    border-color: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #f1dec5;
+  }
+
+  /*--------- project is over--------- */
+
+  /*------- contact is over----- */
+
+  #contact {
+    width: 90%;
+  }
+
+  h1 {
+    font-weight: 400;
+    width: 100%;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .contact-info-top-container {
+    height: 10%;
+    width: 60%;
+
+  }
+
+  .contact-icon {
+    height: 30px;
+  }
+
+  .email-icon {
+    height: 30px;
+  }
+}
+
+
+/* =========600 OVER ================ */
+
+@media only screen and (max-width: 450px) {
+
+
+
+  .header-wrapper {
+    margin-top: 20px;
+  }
+
+  .header-wrapper nav a {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+
+  /* ----head over---- */
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic-container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0px 20%;
+    justify-content: center;
+
+  }
+
+  .pic-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    display: flex;
+
+
+  }
+
+  /*------------- profile is over-------------- */
+  #about {
+    position: relative;
+    margin-top: 50%;
+  }
+
+  .about-details-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-containers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .text-container p {
+    width: auto;
+    margin: 0px 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+  }
+
+  /*-------- about is over--------- */
+  #skills {
+    margin-top: 40%;
+  }
+
+  .experience-details-container {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    height: 50%;
+    width: 70%;
+  }
+
+  article {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  /*------ skill is over --------*/
+
+
+
+  .calculator img {
+    margin-top: 30px;
+    width: 200px;
+    height: 250px;
+  }
+
+  .btn-container-2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .btn-1,
+  .btn-2 {
+    height: 50px;
+    width: 160px;
+    margin: 5px;
+    border-radius: 17px;
+    border-color: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #f1dec5;
+  }
+
+  /*--------- project is over--------- */
+
+  /*------- contact is over----- */
+
+  #contact {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 23px;
+    font-weight: 300;
+    width: 100%;
+  }
+
+  a {
+    font-size: 10px;
+  }
+
+  .contact-info-top-container {
+    height: 10%;
+    width: 60%;
+
+  }
+
+
+  .contact-icon {
+    height: 15px;
+  }
+
+  .email-icon {
+    height: 15px;
+  }
+}
